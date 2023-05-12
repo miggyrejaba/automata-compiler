@@ -1,0 +1,78 @@
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropbtn {
+    margin-left: 150px;
+    width: 250px;
+    height: 50px;
+    background-color: rgb(20, 33, 86);
+    color: white;
+    margin-bottom: 10px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+.dropdown-content a {
+    margin-left: 30px;
+    width: 500px;
+    height: 50px;
+    background-color: rgb(44, 63, 138);
+    margin-bottom: 10px;
+    color: rgb(240, 240, 240);
+    text-align: center;
+    line-height: 50px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    display: block;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+body {
+    background-color: rgb(235, 207, 214);
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color: rgb(44, 63, 138);
+    text-align: center;
+}
+.cfg {
+    margin-left: 150px;
+    width: 250px;
+    height: 50px;
+    background-color: rgb(20, 33, 86);
+    color: white;
+    margin-bottom: 10px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.pda {
+    margin-left: 150px;
+    width: 250px;
+    height: 50px;
+    background-color: rgb(20, 33, 86);
+    color: white;
+    margin-bottom: 10px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    display: block;
+}
